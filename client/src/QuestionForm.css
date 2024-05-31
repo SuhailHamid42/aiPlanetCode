@@ -1,0 +1,46 @@
+/* QuestionForm.css */
+.question-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.question-input {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.ask-button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ask-button:hover {
+    background-color: #218838;
+}
+
+.answer-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.answer-heading {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #343a40;
+}
+
+.answer-text {
+    font-size: 1rem;
+    color: #6c757d;
+}
