@@ -1,6 +1,4 @@
-Certainly! Here's a more concise version of the README with properly formatted setup instructions and API documentation:
-
----
+# See the website live at (https://aiplanetpdf.netlify.app/)
 
 # Fullstack PDF Q&A Application
 
@@ -38,6 +36,7 @@ Develop a full-stack application that allows users to upload PDF documents and a
 3. Create a `.env` file and add your OpenAI API key.
     ```env
     OPENAI_API_KEY=your_openai_api_key
+    MONGODB_URL=your_mongodb_url
     ```
 4. Start MongoDB and the backend server.
     ```bash
@@ -74,14 +73,3 @@ Develop a full-stack application that allows users to upload PDF documents and a
   - **Request**: JSON with filename and question.
   - **Response**: JSON with the question and answer.
 
-## Design
-Refer to the design mockup.
-
-## Deliverables
-- Source code for both frontend and backend.
-- README with setup instructions and API documentation.
-- Live demo or screencast (if available).
-
----
-
-You can copy and paste this into your README file, and it should maintain good formatting. Adjust any placeholders (`<repository-url>`, `<repository-directory>`) with your actual repository details.
